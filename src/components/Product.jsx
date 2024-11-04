@@ -33,11 +33,11 @@ return (
 
     <Card style={{ width: '20rem' }}>
         <Card.Img src= {image} alt= {name} style={style.card}/>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>
+        <Card.Title style={{ padding: '10px'}}>{name}</Card.Title>
+        <Card.Text style={{ padding: '10px'}}>
         {description}
         </Card.Text>
-        <Card.Text><strong>${price}</strong></Card.Text>
+        <Card.Text style={{ padding: '10px'}}><strong>${price}</strong></Card.Text>
         <Button variant="primary" style={style.button}>Buy Now</Button>
     </Card>
 
